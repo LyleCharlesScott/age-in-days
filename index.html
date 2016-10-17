@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="bootstrap-css@*" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+    <script data-require="angular.js@1.5.8" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-app="Age">
+    <section class="container text-center">
+      <h1>How Many Days Old Am I?</h1>
+      <div ng-controller="ageController">
+        <input type="date" ng-model="birthdate" />
+        <button class="btn primary-btn" ng-click="calculate(birthdate)">Calculate</button>
+        <h2 ng-if="totalAgeInDays">{{totalAgeInDays}}</h2>
+      </div>
+    </section>
+  </body>
+
+</html>
