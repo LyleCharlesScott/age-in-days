@@ -1,0 +1,24 @@
+{
+  "name": "age-in-days",
+  "version": "1.0.0",
+  "description": "your age in days",
+  "main": "script.js",
+  "dependencies": {
+    "node": "^0.0.0",
+    "npm": "^3.10.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyleCharlesScott/age-in-days.git"
+  },
+  "author": "Lyle Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyleCharlesScott/age-in-days/issues"
+  },
+  "homepage": "https://github.com/LyleCharlesScott/age-in-days#readme"
+}
